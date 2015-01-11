@@ -17,10 +17,10 @@ $(function() {
 					for (var j = 0; j < data[i].length; j++) {
 
 
-						$(".selectNewChallenge").append("<h2>Welcome " + data[i][j].name + " to the game of masters!");
-						$(".selectNewChallenge").append("<p>Pick a challenge by accepting or hit pick new challenge if you want to change</p>");
+						$(".selectNewChallenge").append("<h2>Welcome " + data[i][j].name + " to the League of Legends game!");
+						$(".selectNewChallenge").append("<p>Choose your challenge by accepting or hit pick new challenge if you want to do another challenge</p>");
 						$(".selectNewChallenge").append("<button class='accept_challenge'>Accept challenge</button>");
-						$(".selectNewChallenge").append("<button class='pick_new_challenge'>Pick new challenge");
+						$(".selectNewChallenge").append("<button class='pick_new_challenge'>I want a new challenge");
 
 						$(".pick_new_challenge").on("click", pickNewChallenge);
 						$(".accept_challenge").on("click", acceptChallenge);
