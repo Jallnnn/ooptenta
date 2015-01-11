@@ -45,7 +45,7 @@ else {
     $random_human_name = mt_rand(0,2);
     $human = New Human($humanName[$random_human_name]);
 
-$all_classes = array("Baron", "Dragon", "Human");
+$all_classes = array("Human", "Archer", "Monster");
 $random_class = $create_class;
 while ($create_class == $random_class) {
 	$randomIndex = rand(0, count($all_classes) - 1);
@@ -77,7 +77,6 @@ $humanName = array(
 
     $random_human_name = mt_rand(0,2);
     $computer_player[] = New $random_class2($humanName[$random_human_name]);
-
 
 
 $tools = array();
