@@ -1,6 +1,6 @@
 <?php
 
-class Tool {
+class Tool extends Base {
  
 
   public $description;

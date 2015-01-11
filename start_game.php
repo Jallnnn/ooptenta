@@ -45,7 +45,7 @@ else {
     $random_human_name = mt_rand(0,2);
     $human = New Human($humanName[$random_human_name]);
 
-$all_classes = array("Baron", "Dragon", "Gromp");
+$all_classes = array("Baron", "Dragon", "Human");
 $random_class = $create_class;
 while ($create_class == $random_class) {
 	$randomIndex = rand(0, count($all_classes) - 1);

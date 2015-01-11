@@ -35,6 +35,21 @@ $(function() {
 	});
 
 		function acceptChallenge() {
+
+				$.ajax({
+				url: "carryout_challenge.php",
+				dataType: "json",
+				data: {
+					acceptChallenge: 1
+				},
+				success: function(data) {
+					$(".selectNewChallenge").html("");
+					console.log("Carried out challenge", data.responseText);
+				},
+				error: function(data) {
+					console.log("Did not carry out challenge", data.responseText);
+				}
+			});
 			
 		}
 

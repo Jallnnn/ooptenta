@@ -1,6 +1,6 @@
 <?php
 
-class Gromp extends Character {
+class Human extends Character {
 
   public $name;
   public $attackspeed = 70;
