@@ -7,3 +7,5 @@ class Dragon extends Character {
   public $abilitypower = 70;
   public $attackdamage = 30;
   public $armor = 50;
+
+}
